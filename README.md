@@ -7,6 +7,7 @@ The objective of this project is to build and compare five machine learning clas
 The project evaluates the performance of five classification algorithms using multiple evaluation metrics and identifies the most suitable model based on the results.
 
 2. Dataset Description
+Dataset Source: UCI Machine Learning Repository – Bank Marketing Dataset.
 
 Dataset: Bank Marketing Dataset
 File: bank.csv
@@ -43,7 +44,10 @@ The following steps were performed:
 7. Split the data into training and testing sets.
 
 Train-Test Split
-
+* Split ratio: 80:20
+* Stratification: Applied
+* Random state: 42
+  
 Dataset	Number of Records
 Training set	3,616
 Testing set	905
