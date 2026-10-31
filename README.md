@@ -106,9 +106,19 @@ The repository includes:
 
 9. Streamlit Application
 
-A Streamlit application will be used to demonstrate the trained models. The intended interface will allow users to upload a CSV file, select a saved classifier, and view supported evaluation metrics and classification results.
+A Streamlit web application has been developed and deployed to demonstrate the five trained machine learning classification models.
 
-Live application: To be added after deployment.
+The application provides the following functionalities:
+
+* Upload a CSV file containing test data.
+* Select one of the five saved classification models.
+* View evaluation metrics, including Accuracy, AUC, Precision, Recall, F1 Score, and MCC.
+* View the confusion matrix and classification report.
+* Load previously trained models without retraining them on uploaded data.
+
+Live Application:
+
+https://ml-assignment-2-bank-marketing-gbpydavidad2pxz27hx5wx.streamlit.app/
 
 10. GitHub Repository
 
